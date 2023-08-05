@@ -9,6 +9,9 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <v-btn prepend-icon="$pencil">
+        Edit flights
+      </v-btn>
     </div>
   </header>
 
